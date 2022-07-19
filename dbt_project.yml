@@ -39,3 +39,6 @@ models:
         +materialized: table
     staging:
       +materialized: view
+    test:
+      +materialized: view
+      +schema: jaffle_shop
