@@ -10,7 +10,7 @@
 
         select 
             {{ results }} as is_real
-        from a_real_table
+        --from a_real_table
         
     {% endif %}
     

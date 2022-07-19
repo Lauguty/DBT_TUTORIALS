@@ -1,3 +1,8 @@
+{{ config(
+    materialized ='ephemeral'
+)}}
+/*Las tablas ephemeral terminan siendo como un with dentro de la consulta que las utiliza*/
+
 with orders as  (
     select * from {{ ref('stg_orders' )}}
 ),
