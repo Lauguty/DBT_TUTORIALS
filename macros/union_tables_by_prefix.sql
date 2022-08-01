@@ -1,4 +1,4 @@
-{%- macro union_tables_by_prefix(database, schema, prefix) -%}
+/*{%- macro union_tables_by_prefix(database, schema, prefix) -%}
 
   {%- set tables = dbt_utils.get_relations_by_prefix(database=database, schema=schema, prefix=prefix) -%}
 
@@ -12,4 +12,4 @@
       
   {% endfor -%}
   
-{%- endmacro -%}
+{%- endmacro -%}*/
