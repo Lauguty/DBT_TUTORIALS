@@ -1,3 +1,4 @@
+/*
 {{
     union_tables_by_prefix(
         database = 'plucky-paratext-354615',
@@ -5,3 +6,4 @@
         prefix='orders__'
     )
 }}
+*/
